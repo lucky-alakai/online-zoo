@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 500;
+  width: 1600px;
+  
+  
+}
+
+.container{
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 72.5%;
+
+    
+    
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  line-height: 22px;
+}
+
+.header__top-nav-list{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 63px; 
+}
+
+.header__top-nav-item + .header__top-nav-item{
+  margin-left: 58px;
+}
+
+.header__top-design-author{
+  display: inline-block;
+  margin-right: 00px;
+}
+
+.header__main{
+  background-image: url('images/giant_panda.jpg');
+  min-height: 780px;
+  position: relative;
+  
+}
+.header__main-ellipse{
+  position: absolute;
+    left: 800px;
+    top: 12px;
+}
+.header__main-watch-online{
+  display: block;
+  max-height: 400px;
+  max-width: 500px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 106px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: #fff;
+  position: absolute;
+  top: 86px;
+  left: 880px;
+}
+.header__main-favorite{
+  color: #FFEE2E;
+}
+
+.header__main-button{
+  text-transform: uppercase;
+  border-radius: 25px;
+  background-color: #F9804B;
+  color: #fff;
+  min-width: 300px;
+  min-height: 55px;
+  line-height: 22px;
+  position: absolute;
+  top: 550px;
+  left: 983px;
+ }
+
+ .backstage{
+  width: 100%;
+ }
+ .backstage__inner{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 140px;
+  padding-left: 10%;
+  padding-right: 10%;
+ }
+ 
+ .backstage__imgsection{
+  margin-right: 87px;
+  max-width: 609px;
+ }
+
+ .backstage__textsection{
+  font-weight: 400;
+  color: #333B41;
+  min-width: 485px;
+  
+ }
+ 
+
+ .backstage__main-title{
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 20px;
+ }
+
+ .backstage__main-text{
+  margin-bottom: 54px;
+ }
+
+ .backstage__subtitle{
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 34px;
+ }
+
+ .backstage__subtext{
+  line-height: 22px;
+ }
